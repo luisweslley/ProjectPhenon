@@ -1,0 +1,64 @@
+.container-fluid {
+    /* height: 500px; */
+    width: 700px;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 5px 6px 2px #d1d1d1;
+    margin: 0;
+}
+
+.py-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.py-4 .container,
+.py-4 .container .row {
+    margin: 0;
+    width: 100%;
+}
+
+.button{
+    /* width: 700px; */
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #3b76e6;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+input {
+    height: 30px!important;
+}
+
+@media screen and (max-width: 800px) {
+    .py-4 {
+        background-color: #fff;
+        padding-top: 0.6rem!important;
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .container .row {
+        width: 98%;
+        margin: auto;
+    }
+
+    .container .row .container-fluid {
+        width: 100%;
+        background-color: transparent;
+        border-top: 0;
+        box-shadow: none;
+    }
+
+    .container .row .container-fluid h5 {
+        color: #03A9F4;
+    }
+}
